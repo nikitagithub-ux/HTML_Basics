@@ -1,0 +1,36 @@
+body {
+    background-color: burlywood;
+    text-align: center;
+}
+
+.heading {
+    color: antiquewhite;
+    text-align: center;
+}
+
+#button {
+    border : 2px solid black;
+    border-radius: 8px;
+    color: black; 
+    background-color: azure;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#button:hover{
+    background-color: blueviolet;
+}
+
+table {
+    color: beige;
+}
+
+tr {
+    align-content: center;
+}
+tr:nth-Child(even) {
+    background-color: grey;
+}
+
+label {
+    padding : 20px;
+}
